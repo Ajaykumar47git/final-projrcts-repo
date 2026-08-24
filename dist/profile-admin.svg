@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#0c6b58"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="url(#bg)"/>
+  <!-- Head -->
+  <circle cx="100" cy="78" r="38" fill="#f5deb3"/>
+  <!-- Hair -->
+  <path d="M62 70 Q62 42 100 42 Q138 42 138 70 Q138 55 120 50 Q100 46 80 50 Q62 55 62 70Z" fill="#2c1810"/>
+  <!-- Eyes -->
+  <ellipse cx="85" cy="78" rx="4" ry="4.5" fill="#2c1810"/>
+  <ellipse cx="115" cy="78" rx="4" ry="4.5" fill="#2c1810"/>
+  <!-- Nose -->
+  <path d="M97 82 Q100 88 103 82" stroke="#c4956a" fill="none" stroke-width="1.5"/>
+  <!-- Smile -->
+  <path d="M88 94 Q100 104 112 94" stroke="#c47a6a" fill="none" stroke-width="2" stroke-linecap="round"/>
+  <!-- Shirt -->
+  <path d="M60 130 Q60 118 100 118 Q140 118 140 130 L150 200 L50 200Z" fill="#1a365d"/>
+  <!-- Collar -->
+  <path d="M85 118 L100 132 L115 118" fill="none" stroke="#fff" stroke-width="2"/>
+  <!-- Badge -->
+  <rect x="120" y="140" width="24" height="30" rx="3" fill="#f59e0b" opacity="0.9"/>
+  <text x="132" y="158" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="bold" fill="#1a365d">ADMIN</text>
+</svg>
